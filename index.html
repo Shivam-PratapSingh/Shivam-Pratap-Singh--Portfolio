@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Shivam Pratap Singh - Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+          Shivam Pratap Singh
+          <div class="contact_info">
+            <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          singhshivampratap66gmail.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          +91 7011307954
+
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <!-- Add the links for Skills, Projects and Recommendation here -->
+
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="https://cdn.pixabay.com/photo/2016/11/23/14/45/coding-1853305_1280.jpg" class="profile_image"/>
+      </div>
+
+      <div>
+          <h1>
+            Hi, I'm Shivam Pratap Singh! <img src="html_finalprojimages/waving-hand.png" width="60px"/>
+          </h1>
+          <p>
+            I am a Web Developer with a passion for creating dynamic and responsive websites.
+            I have experience in HTML, CSS, and JavaScript, and I am always eager to learn new technologies and improve my skills.
+            I enjoy working on projects that challenge me and allow me to express my creativity.
+            In my free time, I love to explore new web development trends and contribute to open-source projects.
+            I am currently looking for opportunities to collaborate on exciting web development projects and further enhance my skills. 
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="html_finalprojimages/html5.png"/>
+          <h6>HTML</h6>
+          <p>1 years experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="https://delta-dev-software.fr/wp-content/uploads/2024/05/CSS-Logo.png"/>
+          <h6>CSS</h6>
+          <p>1 years experience</p>
+        </div> 
+
+        <div class="skill">
+          <img src="html_finalprojimages/js.jpeg"/>
+          <h6>JavaScript</h6>
+          <p>1 years experience</p>
+        </div> 
+        
+        <div class="skill">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/The_C_Programming_Language_logo.svg/250px-The_C_Programming_Language_logo.svg.png"/>
+          <h6>C</h6>
+          <p>2 years experience</p>
+        </div>
+        
+        <div class="skill">
+          <img src="https://user-images.githubusercontent.com/54292953/142726987-139b4a51-9471-4aa3-9051-1bab383c38c9.png"/>
+          <h6>C++</h6>
+          <p>1 years experience</p>
+        </div> 
+
+        <!-- Add more skills here -->
+
+
+      </div>
+    </section>
+          
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>Customer Support Automation System</h3>
+            <ul>
+              <li>An intelligent chatbot solution designed to handle FAQs and streamline support queries with conversational AI.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Product Review Insight Engine</h3>
+            <ul>
+              <li>A sentiment analysis platform that evaluates user-generated reviews to assess brand perception and improve decision-making.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Corporate Branding Showcase Website</h3>
+            <ul>
+              <li>A dynamic fashion-themed website built to present creative branding assets and showcase modern front-end design capabilities.</li>
+            </ul>
+          </div>
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Shivam consistently demonstrates exceptional skill in developing intelligent solutions, from chatbot automation to insightful sentiment analysis tools. His approach balances technical precision with creative vision — a rare combination that adds depth to his portfolio. A reliable and detail-oriented professional.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          “Having collaborated with Shivam on a branding showcase initiative, I witnessed his ability to merge aesthetics with robust code. His eye for detail, especially in responsive design and alignment, elevates any project he touches. A great asset to any creative tech team.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Shivam’s Product Review Insight Engine is a testament to his strong grasp of data-driven development. He translates user feedback into actionable insights with finesse. His curiosity and precision make him an outstanding developer for high-impact web applications.
+          <span>&#8221;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+</svg>
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg"/>
+      <h3>Thank You for your Recommendation</h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+  </body>
+</html>
